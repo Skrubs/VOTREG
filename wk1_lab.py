@@ -89,7 +89,7 @@ def welcome():
     while True:
         user_welcome = input("Welcome to the voter registration application,"
                              " would you like to register?  Y/N: ").upper()
-        if user_welcome.strip() == '':
+        if user_welcome.strip() == '' or user_welcome != "Y" or "N":
             print("Not a valid response.  Please try again.")
         if user_welcome == "N":
             goodbye()

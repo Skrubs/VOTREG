@@ -1,0 +1,10 @@
+
+Variables needed to registration:
+ first_name, last_name, age, country_of_citizenship, state_of_residence, zipcode
+
+ TO DO:
+ 1. Prompt User for each above variable
+ 2. validate user input for required ranges
+ 3. store input into variables
+ 4. determine if the user is qualified for registration
+ 5. Test code for use cases
